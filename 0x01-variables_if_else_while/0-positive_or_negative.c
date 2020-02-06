@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
-
+/**
+ *main -gives us a random number and tells if it is positive, negative or cero
+ *Return: 0 if success
+*/
 int main(void)
 {
 int n;
