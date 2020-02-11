@@ -1,17 +1,20 @@
-#include<stdio.h>
+#include "holberton.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 
 int main(void)
-
 {
-	printf("Holberton\n");
+	char Holberton[] = "Holberton";
+	int a;
 
-
-return (0);
-
+	for (a = 0; a < 9; a++)
+	{
+		_putchar(Holberton[a]);
+	}
+	_putchar('\n');
+	return (0);
 }
