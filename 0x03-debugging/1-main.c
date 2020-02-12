@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int r;
+	int i;
 
 	printf("Infinite loop incoming :(\n");
 
-	r = 0;
+	i = 0;
 	/**
-	 *while (r < 10)
+	 *while (i < 10)
 	 *{
-	 *putchar(r);
+	 *putchar(i);
 	 *}
 	 */
 	printf("Infinite loop avoided! \\o/\n");
