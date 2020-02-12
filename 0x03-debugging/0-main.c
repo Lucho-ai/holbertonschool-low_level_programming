@@ -1,15 +1,17 @@
+  
 #include "holberton.h"
 
 /**
- *main -gives us a random number and tells if it is positive, negative or cero
- *Return: 0 if success
-*/
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
+ */
+
 int main(void)
 {
-	int f;
+	int i;
 
-	f = 0;
-	positive_or_negative(f);
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
