@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print the numbers from 1 to 100,
  * multiples of 3 with Fizz,
@@ -7,6 +6,7 @@
  * and multiple of both 3 and 5 with FizzBuzz
  * Return: 0 on success
  */
+
 int main(void)
 {
 	int i;
@@ -17,13 +17,11 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-
-		if (i % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz");
 		}
-
-		if (i % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz");
 		}
@@ -31,7 +29,6 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-
 		if (i < 100)
 		{
 			printf(" ");
@@ -39,4 +36,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}
+
