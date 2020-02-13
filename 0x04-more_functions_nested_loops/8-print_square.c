@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * print_square - check the code fot holberton school studets
-* @n: num 1
+* @size: size digit
 */
 void print_square(int size)
 {
