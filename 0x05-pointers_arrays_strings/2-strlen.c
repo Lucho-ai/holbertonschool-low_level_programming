@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * strlen - funtion that takes a parameter and update.
- * @s: its the value of the pointer
+ * _strlen - print the long of a string.
+ * @s: its the string to out
+ * Return: The counter
  */
 int _strlen(char *s)
 {
