@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * reset_to_98 - funtion that takes a parameter and update.
- * @n: its the value of the pointer
- * Return: Always 0.
+ * _puts - funtion that prints a string.
+ * @str: its the string
  */
-
 void _puts(char *str)
 {
 	int c = 0;
