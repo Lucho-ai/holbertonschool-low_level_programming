@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _strcat - funtion that print a string overwriting a string
+ * _strncat - funtion that print a string overwriting a string
  * @src: its the value for string
  * @dest: its the value of the array
+ * @n: ist n bytes
  * Return: Always dest.
  */
 char *_strncat(char *dest, char *src, int n)
