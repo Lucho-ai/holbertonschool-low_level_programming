@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _strcat - funtion that print a string overwriting a string
- * @src: its the value for string
- * @dest: its the value of the array
+ * string_toupper - funtion that change uppercase
+ * @s: is a string
  * Return: Always dest.
  */
 char *string_toupper(char *s)
