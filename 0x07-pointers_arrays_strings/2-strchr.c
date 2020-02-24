@@ -1,12 +1,12 @@
 
+
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _memcpy - function that copies memory area.
- * @dest: array of type character.
- * @src:  array of type character.
- * @n: unsigned integer.
- * Return: the value of dest.
+ * _strchr - function that copies memory area.
+ * @s: pointer.
+ * @c: varaible desing.
+ * Return: 0.
  */
 char *_strchr(char *s, char c)
 {
@@ -17,7 +17,6 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			return (s + i);
-			break;
 		}
 	}
 	return (0);
