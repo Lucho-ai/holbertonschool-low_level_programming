@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * _memset() - check the code for Holberton School students.
- * @n parameter give us
- * @s puntero give us
- * @b is array give us
- * Return: A pointer to the memory a..
+ * _memset - function that fills memory with a constant byte.
+ * @s: character.
+ * @b: character.
+ * @n: unsigned integer.
+ * Return: the value of s.
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
