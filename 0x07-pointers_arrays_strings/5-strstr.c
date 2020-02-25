@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _strpbrk - function that copies memory area.
- * @s: pointer.
- * @accept: varaible desing.
- * Return: 0.
+ * _strstr - Locates a substring..
+ * @haystack: String to be compared
+ * @needle: Substring to be located
+ * Return: NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
