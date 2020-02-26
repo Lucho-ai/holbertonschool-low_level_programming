@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * Factorial- prints a factorial.
+ * factorial- Return a factorial of a given number .
  * @n: string.
- */
+ * Return: factorial number
+*/
 int factorial(int n)
 {
 	if (n < 0)
