@@ -10,4 +10,7 @@ int _sqrt_recursion(int n);
 int _square(int j, int i);
 int is_prime_number(int n);
 int _find(int j, int find1);
+int is_palindrome(char *s);
+int recursion1(char *s, int l);
+int xD(char *s);
 #endif
