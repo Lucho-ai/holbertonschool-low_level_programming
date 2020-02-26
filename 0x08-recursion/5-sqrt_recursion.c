@@ -8,17 +8,17 @@ int _sqrt_recursion(int n)
 {
 	int result = 0;
 
-	result = _find (n, 0);
+	result = _square(n, 0);
 	return (result);
 }
 
 /**
- * _find - Find the square.
+ * _square - Find the square.
  * @n: integer
  * @xD:integer
  * Return: result of the sqare root of n
  */
-int _find(int j, int i)
+int _square(int j, int i)
 {
 	int result = 0;
 
