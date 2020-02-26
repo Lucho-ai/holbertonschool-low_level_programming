@@ -14,7 +14,7 @@ int is_prime_number(int n)
 
 /**
  * _find - function that help to find a prime number.
- * @n: number to be calculate
+ * @j: number to be calculate
  * @find1: Help find if its prime
  * Return: 1 if prime; 0 if not prime.
  */
