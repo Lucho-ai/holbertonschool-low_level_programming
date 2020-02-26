@@ -14,8 +14,8 @@ int _sqrt_recursion(int n)
 
 /**
  * _square - Find the square.
- * @n: integer
- * @xD:integer
+ * @j: int
+ * @i:int
  * Return: result of the sqare root of n
  */
 int _square(int j, int i)
@@ -26,6 +26,6 @@ int _square(int j, int i)
 		return (-1);
 	if (i * i == j)
 		return (i);
-	result = _find(j, i + 1);
+	result = _square(j, i + 1);
 	return (result);
 }
