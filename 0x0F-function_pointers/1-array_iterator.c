@@ -2,8 +2,9 @@
 #include <stdlib.h>
 /**
  *array_iterator - executes a function given as a parameter.
- *@j: Variable.
- *@K: Size of variable.
+ *@array: Array to iterate.
+ *@size: Size of array.
+ *@action: Action to iterate.
  *Return: Void.
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
