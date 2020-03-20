@@ -4,6 +4,7 @@
  * list_len - Length of a linked list
  * @h: Pointer of the linked list
  * Return: Amount of nodes in the linked list
+ * @a: Variable to iterate linked list
  */
 size_t list_len(const list_t *h)
 {
