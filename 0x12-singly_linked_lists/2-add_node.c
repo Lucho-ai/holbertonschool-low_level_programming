@@ -17,9 +17,10 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		return (NULL);
 	}
-	for (j = 0; str[i] != '\0')
+	j = 0;
+	while (; str[j] != '\0')
 	{
-		i++;
+		j++;
 	}
 	a->str = strdup(str);
 	a->len = j;
