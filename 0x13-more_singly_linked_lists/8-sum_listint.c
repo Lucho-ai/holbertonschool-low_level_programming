@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
- * sum_listint - Sum of all data(n).
- *@head: Head.
+ * sum_listint - Funcition that Sum of all data(n).
+ * @head: Head.
  * Return: address of nodes.
  */
 int sum_listint(listint_t *head)
