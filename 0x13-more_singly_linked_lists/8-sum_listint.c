@@ -10,16 +10,16 @@
  */
 int sum_listint(listint_t *head)
 {
-	int a;
-	
-	a = 0;
+	int i;
+
+	i = 0;
 
 	if (!head)
-		return (a);
+		return (i);
 
 	if (head->next)
-		a += sum_listint(head->next);
+		i += sum_listint(head->next);
 
-	a += head->n;
-	return (a);
+	i += head->n;
+	return (i);
 }
