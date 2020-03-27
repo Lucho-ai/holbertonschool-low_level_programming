@@ -3,13 +3,13 @@
 #include <math.h>
 
 /**
- * binary_to_uint - Funtion that converrts binary to decimal..
- *@b: Binary numbers.
+ * binary_to_uint - Converrts binary to decimal..
+ * @b: Binary numbers.
  * Return: Decimal numbers.
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, r = 0;
+	unsigned int i, j = 0;
 
 	if (!b)
 	{
@@ -20,7 +20,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] == '0' || b[i] == '1')
 		{
-			r = (r * 2) + (b[i] - '0');
+			j = (j * 2) + (b[i] - '0');
 		}
 		else
 		{
@@ -28,5 +28,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 	}
 
-	return (r);
+	return (j);
 }
