@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_dlistint - Function that prints all the elements of a list.
+ * print_dlistint - Prints all the elements of a list.
  * @h: Head of the list.
  * Return: The times it prints.
  */
