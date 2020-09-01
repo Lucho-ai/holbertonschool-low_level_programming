@@ -1,45 +1,3 @@
-cd ..
-git status
-cd ..
-git status
-git add 0x0C-python-almost_a_circle/
-git commit -m "Python almost a circle"
-git push origin master
-ls
-cd 0x0C-python-almost_a_circle/
-ls
-cd test/
-ls
-cd test_models/
-ls
-chmod u+x test_base.py test_rectangle.py test_square.py 
-ls
-cd ..
-ls
-nano __init__.py
-ls
-nano __init__.py
-ls
-nano __init__.py 
-rm __init__.py 
-lls
-ls
-git status
-git add .
-git commit -m "Executable
-git commit -m "Executable"
-git status
-git push origin master 
-git pulls
-git pull
-ls
-cd 
-cd holbertonschool-higher_level_programming/
-ls
-cd 0x0C-python-almost_a_circle/LS
-ls
-rmdir 0x0C-python-almost_a_circle/
-nano 0x0C-python-almost_a_circle/
 cd 0x0C-python-almost_a_circle/
 ls
 rm README.md
@@ -497,4 +455,46 @@ rmdir --ignore-fail-on-non-empty holbertonschool-higher_level_programming/
 rmdir --ignore-fail-on-non-empty holbertonschool-higher_level_programming/
 ls
 rmdir holbertonschool-higher_level_programming/
+exit
+ls
+git pull
+ls
+cd holbertonschool-higher_level_programming/
+ls
+cd ..
+ls
+rmdir holbertonschool-higher_level_programming/
+ls
+git pull
+git status
+git commit -a "js"
+git status
+git add .bash_history 
+git commit -m "te"
+git push origin master
+git status
+cd holbertonschool-higher_level_programming/
+ls
+cd ..
+rmdir holbertonschool-higher_level_programming/
+ls
+git status
+git add holberton-system_engineering-devops/
+git commit -m "sfs"
+ls
+cd
+ls
+ls
+git status
+git status holbertonschool-higher_level_programming/
+git commit -a "Hg"
+git status
+git add holbertonschool-higher_level_programming/
+git commit -a "gd"
+git push origin master
+git status
+git checkout
+git checkout holbertonschool-higher_level_programming/
+git commit -a "gd"
+git push origin master
 exit
