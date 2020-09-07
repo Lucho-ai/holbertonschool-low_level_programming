@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * insert_dnodeint_at_index - Function that inserts a new node in a position.
  * @h: Head of the list.
@@ -6,6 +7,7 @@
  * @n: Item to be created and added to the list.
  * Return: The new node.
  */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new, *temp, *prev = *h;
