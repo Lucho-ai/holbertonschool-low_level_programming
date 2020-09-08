@@ -1,9 +1,11 @@
 #include "lists.h"
+
 /**
  * sum_dlistint - Returns the sum of all the data (n) of a list.
  * @head: Head of the list.
  * Return: Sume of the list or 0.
  */
+
 int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
